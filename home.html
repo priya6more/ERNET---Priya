@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Inconsolata:wght@200&family=Open+Sans:wght@300&family=Quicksand:wght@300&family=Satisfy&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/e8782e01bb.js" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="myscript.js"></script>
+</head>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="nav-link text-white" href="#">Screen Reader Access</a>
+      
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Skip to main content</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"></a>
+          </li>
+         
+        
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-primary" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light static-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="logo.png" alt="logo" style="float: left; width: 50%;">
+        <p style="font-size: 15px;">Education and Research Network of India<br> शिक्षण एवं अनुसंधान नेटवर्क ऑफ
+          इंडिया</p>
+      </a>
+      <a class="navbar-brand" href="#">
+        <img src="seal.png" alt="logo" style="float: right; width: 10%;">
+        <p style="font-size: 15px;white-space: normal;">Ministry of Electronics & Information
+          Technology<br><small>Government of India</small></p>
+      </a>
+
+
+    </div>
+  </nav>
+
+
+  <nav class="navbar navbar-expand-lg bg-primary">
+    <div class="container-fluid" id="text">
+
+      <div class="collapse navbar-collapse">
+        <div class="navbar-nav" id="post">
+          <a class="nav-link active" href="#">Home</a>
+          <a class="nav-link" href="#">About Us</a>
+          <a class="nav-link" href="#">DG Desk</a>
+          <a class="nav-link" href="#">Who is Who</a>
+          <a class="nav-link" href="#">Events</a>
+          <a class="nav-link " href="#">Services</a>
+          <a class="nav-link" href="#">Projects</a>
+          <a class="nav-link" href="#">RTI</a>
+          <a class="nav-link " href="#">Tender</a>
+          <a class="nav-link" href="#">Careers</a>
+          <a class="nav-link" href="#">Help Desk</a>
+          <a class="nav-link " href="#">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner" id="show">
+      <div class="carousel-item active" data-bs-interval="1000">
+        <img src="img1.jpg" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="1000">
+        <img src="img2.jpg" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="1000">
+        <img src="img3.jpg" alt="...">
+      </div>
+    </div>
+  </div>
+  <br><br><br>
+
+
+
+  <div id="floatbig" style="padding-left: 6%;">
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active " id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button"
+          role="tab" aria-controls="home" aria-selected="true">Network</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
+          role="tab" aria-controls="profile" aria-selected="false">Services</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="research-tab" data-bs-toggle="tab" data-bs-target="#research" type="button"
+          role="tab" aria-controls="research" aria-selected="false">Research & Development
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="trained-tab" data-bs-toggle="tab" data-bs-target="#trained" type="button"
+          role="tab" aria-controls="trained" aria-selected="false">Training
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="project-tab" data-bs-toggle="tab" data-bs-target="#project" type="button"
+          role="tab" aria-controls="project" aria-selected="false">Projects
+        </button>
+      </li>
+    </ul>
+    <div class="flex-container">
+
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+          <h3>Welcome To ERNET
+          </h3>
+          <hr>India is the National Research and Education Network dedicated to support the needs of the
+          research and education community within the country. It was established in 1998 as an autonomous
+          scientific society under the Ministry of Electronics
+          & Information Technology (MeitY), Government of India. It operates ERNET network – a pan-Indian
+          terrestrial and satellite network with 5 points of presence at premier research and academic
+          institutions.
+          <br><br><br>
+          <div style="display:flex; ">
+            <a href="#" style="text-decoration: none;">
+              <h6>Hindi Activities &nbsp;&nbsp;</h6>
+            </a>
+            <a href="#" style="text-decoration: none;">
+              <h6>Circulars & Notices &nbsp;&nbsp;</h6>
+            </a>
+            <a href="#" style="text-decoration: none;">
+              <h6>Annual Report&nbsp;&nbsp; </h6>
+            </a> </h5>
+          </div>
+        </div>
+
+
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+          <h3>Services</h3>
+          <hr>In tune with the mandate ERNET is providing four types of services, namely, Access Services,
+          Application Services, Hosting Services and Operations Support Services to all Educational and
+          Research Community of India. ERNET provides access
+          to its network through various connectivity options. Application services include E-mail
+          hosting, domain registration, MPLS VPN. It also provides Web Services having state of art of
+          Data Centre. Other services include IT Consultancy and
+          Project Management services for establishment of IT infrastructure & converged Network Projects.
+          <br><br><br>
+          <h6>View More
+            <hr>
+          </h6>
+        </div>
+
+
+        <div class="tab-pane fade" id="research" role="tabpanel" aria-labelledby="research-tab">
+          <h3>Research & Development</h3>
+          <hr>ERNET India is actively involved in research and development in the field of computer
+          networking. Current areas of interest include high speed networking, network management,
+          wireless sensor networks, future internet research, mobility
+          in IP networks, cloud computing etc. The R&D efforts initiated by ERNET core groups have
+          resulted in product development and technology transfer to the industry.
+        </div>
+
+
+        <div class="tab-pane fade" id="trained" role="tabpanel" aria-labelledby="trained-tab">
+          <h3>Training</h3>
+          <hr>The functions of ERNET India are characterized by advanced technologies of diverse nature in
+          the field of high-end & next generation networks, LAN/WAN, Campus Networks, ICT and Voice/Video
+          conference systems. Technology is advancing very
+          fast and with a view to keep updated with the latest technology ERNET India undertakes training
+          activities either through its own resources or through external agencies.
+          <br><br><br>
+          <h6>View More
+            <hr>
+          </h6>
+        </div>
+
+        <div class="tab-pane fade" id="project" role="tabpanel" aria-labelledby="project-tab">
+          <h3>Projects</h3>
+          <hr>ERNET has conceptualized, developed and implemented large number of projects on turn-key
+          basis for various Educational Institutes and Research Organization. Several National and
+          International Projects have been done by ERNET India.
+          <br><br><br>
+          <h6>View More
+            <hr>
+          </h6>
+        </div>
+        <br><br><br>
+      </div>
+    </div>
+
+  </div>
+  <div id="floatsmall">
+    <h2 style="font-size: 25px;"><span style="color: #004BB1;">Latest News</span> View More
+      <hr>
+    </h2>
+    <div class="scroll" id="data">
+      <a>Celebration of "World Kidney Day " by AIIMS Raipur through National Medical College Network on
+        10.03.2022 <img src="icon_new.gif">
+        <hr>
+      </a>
+      <a>Webinars Series on “Data Science and Security Primer” during 18th- 20th August, 2021..
+        <hr>
+      </a>
+      <a>Asia Pacific Advanced Network (APAN) is organizing APAN-53 meeting during 7-11 March 2022 in
+        Bangladesh.  <img src="icon_new.gif">
+        <hr>
+      </a>
+      <a>Pariksha Pe Charcha 2022 programme to be held on 1st April, 2022 latest news icon
+        <hr>
+      </a>
+      <a>Appreciation from NRC and RRC Medical College under NMCN Project latest news icon
+        <hr>
+      </a>
+      <a>Empowering the Govt. Schools and DIETs with Technology Enabled Teaching & Learning with Smart Virtual
+        Classroom Facility.  <img src="icon_new.gif">
+        <hr>
+      </a>
+      <a>Setting up e-classroom in 50 Medical Colleges under NMCN Project.
+        <hr>
+      </a>
+      <a>Recorded sessions of ERNET India on 5G
+        <hr>
+      </a>
+      <a>ERNET India ISO 27001:2013 Certified
+        <hr>    
+      </a>
+    </div>
+  </div>
+  <div style="clear: both;"></div>
+
+
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <h3 style="padding: 3%;">Related Links<hr></h3>
+    <div class="carousel-inner"  style="padding: 1%; padding-top:0%">
+      <div class="carousel-item active" data-bs-interval="2000" id="fix">
+        <img src="pic1.jpg" alt="..." width="30%">
+        <img src="pic2.jpg" alt="..." width="30%">
+        <img src="pic3.jpg" alt="..." width="30%">
+      
+      </div>
+      <div class="carousel-item" data-bs-interval="2000" id="fix">
+        <img src="pic4.jpg" alt="..." width="30%">
+        <img src="pic5.jpg" alt="..." width="30%">
+        <img src="pic6.jpg" alt="..." width="30%">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000" id="fix">
+        <img src="pic7.jpg" alt="..." width="30%">
+        <img src="pic8.jpg" alt="..." width="30%">
+        <img src="pic9.jpg" alt="..." width="30%">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000" id="fix">
+        <img src="pic10.jpg" alt="..." width="30%">
+        <img src="pic11.jpg" alt="..." width="30%">
+        <img src="pic12.jpg" alt="..." width="30%">
+      </div>
+    </div>
+  </div>
+</body>
+
+<div style="clear: both;"></div>
+<br><br><br>
+<footer class="bg-dark text-left text-white">
+  <div class="container p-4">
+    <section id="space">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0" id="under">
+          <h5 class="text-uppercase">Category</h5>
+          <ul class="list-unstyled " >
+            <li class="m-3">
+              <a href="#!" class="text-white"><i class="fa fa-angle-right" aria-hidden="true"></i> Projects</a>
+            </li>
+            <li class="m-3">
+              <a href="#!" class="text-white" style="white-space: nowrap;"><i class="fa fa-angle-right" aria-hidden="true"></i> Research and Development</a>
+            </li>
+            <li class="m-3">
+              <a href="#!" class="text-white"><i class="fa fa-angle-right" aria-hidden="true"></i> Services</a>
+            </li>
+            <li class="m-3">
+              <a href="#!" class="text-white"><i class="fa fa-angle-right" aria-hidden="true"></i> Network</a>
+            </li>
+            <li class="m-3">
+              <a href="#!" class="text-white"><i class="fa fa-angle-right" aria-hidden="true"></i> Training</a>
+            </li>
+          </ul>
+        </div>
+     
+
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0" id="under">
+          <h5 class="text-uppercase">Policies</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li class="m-3">
+              <a href="#!" class="text-white"><i class="fa fa-angle-right" aria-hidden="true"></i> Privacy Policy</a>
+            </li>
+            <li class="m-3">
+              <a href="#!" class="text-white"><i class="fa fa-angle-right" aria-hidden="true"></i> Hyperlink Policy</a>
+            </li>
+            <li class="m-3">
+              <a href="#!" class="text-white"><i class="fa fa-angle-right" aria-hidden="true"></i> Copyright Policy</a>
+            </li>
+            <li class="m-3">
+              <a href="#!" class="text-white"><i class="fa fa-angle-right" aria-hidden="true"></i> Disclaimer</a>
+            </li>
+            <li class="m-3">
+              <a href="#!" class="text-white" style="white-space: nowrap;"><i class="fa fa-angle-right" aria-hidden="true"></i> Accessibility Statement</a>
+            </li>
+            <li class="m-3">
+              <a href="#!" class="text-white"><i class="fa fa-angle-right" aria-hidden="true"></i> Terms and Conditions</a>
+            </li>
+            <li class="m-3">
+              <a href="#!" class="text-white"><i class="fa fa-angle-right" aria-hidden="true"></i> Security Policy</a>
+            </li>
+          </ul>
+        </div>
+        
+
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0" id="under">
+          <h5 class="text-uppercase">Other Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li class="m-3">
+              <a href="#!" class="text-white"><i class="fa fa-angle-right" aria-hidden="true"></i> Home</a>
+            </li class="m-3">
+            <li class="m-3">
+              <a href="#!" class="text-white"><i class="fa fa-angle-right" aria-hidden="true"></i> About Us</a>
+            </li>
+            <li class="m-3">
+              <a href="#!" class="text-white"><i class="fa fa-angle-right" aria-hidden="true"></i> Sitemap</a>
+            </li>
+            <li class="m-3">
+              <a href="#!" class="text-white"><i class="fa fa-angle-right" aria-hidden="true"></i> Feedback</a>
+            </li>
+            <li class="m-3">
+              <a href="#!" class="text-white"><i class="fa fa-angle-right" aria-hidden="true"></i> Terms of Use</a>
+            </li>
+            <li class="m-3">
+              <a href="#!" class="text-white"><i class="fa fa-angle-right" aria-hidden="true"></i> Contact</a>
+            </li>
+            <li class="m-3">
+              <a href="#!" class="text-white"><i class="fa fa-angle-right" aria-hidden="true"></i> Help</a>
+            </li>
+            <li class="m-3">
+              <a href="#!" class="text-white" style="white-space: nowrap;"><i class="fa fa-angle-right" aria-hidden="true"></i> Web Information Manager</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0" >
+          <h5 class="text-uppercase">Contact</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li class="m-3">
+              ERNET India
+            </li>
+            <li class="m-3" style="white-space: nowrap;">
+              5th Floor, Block-I, A Wing,
+            </li>
+            <li class="m-3">
+              DMRC IT Park, Shastri Park,
+            </li>
+            <li class="m-3">
+              Delhi-110053
+            </li>
+            <li class="m-3" style="white-space: nowrap;">
+              Phone : +91 11-22170578
+            </li>
+            <li class="m-3">
+              Fax:+91 11-22170602
+            </li>
+          </ul>
+          
+        </div>
+        <div class="text-center p-3" style="background-color: #004BB1;">
+          Copyright © All Rights Reserved - Official Website of ERNET India Education & Research Network
+        </div>
+        <div id="align">
+          <img src="photo3.gif" width="10%" >
+          <img src="photo1.png" width="10%" >
+          <img src="photo2.png" width="10%">
+        </div>
+        <span id="font" style=" padding: 1%;text-align: center;">Clone By Priya More</span> 
+      </div>
+    </section> 
+  </div>
+</footer>
+</html>
